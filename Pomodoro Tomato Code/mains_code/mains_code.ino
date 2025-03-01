@@ -46,7 +46,7 @@ void setup()
   // Initialize the rtc object
   rtc.begin();
   
-  rtc.setTime(5, 6, 0);     // Set the time to 12:00:00 (24hr format)
+  rtc.setTime(14, 0, 0);     // Set the time to 12:00:00 (24hr format)
   pinMode(a, OUTPUT);                          // Pins for 7-segment
   pinMode(b, OUTPUT);     
   pinMode(c, OUTPUT);     
